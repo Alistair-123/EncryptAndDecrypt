@@ -1,0 +1,121 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.cipher-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-family: monospace;
+    min-height: 80px;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    flex: 1;
+}
+button:hover {
+    background-color: #2980b9;
+}
+#encryptBtn {
+    background-color: #2ecc71;
+}
+#encryptBtn:hover {
+    background-color: #27ae60;
+}
+#decryptBtn {
+    background-color: #e74c3c;
+}
+#decryptBtn:hover {
+    background-color: #c0392b;
+}
+.small-decrypt-btn {
+    background-color: #e74c3c;
+    padding: 3px 8px;
+    font-size: 12px;
+    margin-left: 8px;
+    flex: 0;
+}
+.small-decrypt-btn:hover {
+    background-color: #c0392b;
+}
+.steps {
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+.heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+.code-display {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+.result-container {
+    margin-top: 20px;
+}
+.word-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.word-code {
+    font-family: monospace;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+.word-text {
+    margin-left: 10px;
+    color: #27ae60;
+    font-weight: bold;
+}
+.encoded-words-container {
+    margin-top: 20px;
+}
